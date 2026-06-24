@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Resume Downloads Local",
+  "version": "1.0.0",
+  "description": "Automatically tries to resume interrupted Chrome downloads.",
+  "permissions": [
+    "downloads",
+    "alarms"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
